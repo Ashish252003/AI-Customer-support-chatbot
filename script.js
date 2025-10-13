@@ -6,7 +6,7 @@ const chatbotToggler = document.querySelector(".chatbot-toggler");
 
 let userMessage;
 
-const API_KEY = "AIzaSyBMI84G04dosgccl59o4SXa3JsEy7MDk_I";
+const API_KEY = "##############################";
 
 const createChatLi = (message, className) => {
 
@@ -25,7 +25,7 @@ const createChatLi = (message, className) => {
 
 const generateResponse = (incomingChatLI) => {
 
-  const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBMI84G04dosgccl59o4SXa3JsEy7MDk_I";
+  const API_URL = "##########################################?key=#################################";
   
   const messageElement = incomingChatLI.querySelector("p");
 
@@ -100,5 +100,6 @@ const handleChat = () => {
 }
 
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle("show-chatbot"));
+
 
 sendChatBtn.addEventListener("click", handleChat);

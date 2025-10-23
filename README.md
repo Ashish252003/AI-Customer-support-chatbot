@@ -22,7 +22,6 @@ This project integrates **OpenAI GPT models** with a simple **web-based interfac
 | Frontend | HTML, CSS, JavaScript |
 | AI Integration | OpenAI GPT-3.5-Turbo |
 
-
 ---
 
 ## 📁 Folder Structure
@@ -55,6 +54,11 @@ python app.py
 Then visit: [http://localhost:5000](http://localhost:5000)
 
 ---
+
+## 🎥 Demo Video
+🎬 Watch the working demo of the chatbot here:  
+👉 [Demo Video on Google Drive](https://drive.google.com/file/d/1U62FaLZD8Q0z7rwbvnNg9hdVnj9ZE9nH/view)
+
 
 ## 🧾 Submission Checklist
 ✔ App runs without errors  

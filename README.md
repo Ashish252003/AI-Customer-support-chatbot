@@ -1,51 +1,75 @@
-AI Customer Support Bot
-Project Overview
+# 🧠 AI Customer Support Chatbot
 
-The AI Customer Support Bot is a chatbot designed to simulate customer support interactions. It can:
+## 📋 Project Overview
+The **AI Customer Support Chatbot** is an interactive chatbot designed to simulate customer support conversations.  
+It helps users get instant answers to FAQs and escalates complex queries to a human agent when needed.  
+This project integrates **OpenAI GPT models** with a simple **web-based interface** for realistic customer support use cases.
 
-Automatically answer frequently asked questions (FAQs)
+---
 
-Maintain conversation context across multiple messages
+## 🚀 Features
+- 🤖 **Automated FAQ Responses** – Answers common queries instantly.  
+- 🧩 **Context Awareness** – Maintains short-term conversation context.  
+- 👩‍💼 **Escalation Handling** – Redirects complex queries to human agents.  
+- 💬 **Simple Web Interface** – Built with HTML, CSS, and JavaScript.  
+- ⚡ **Lightweight & Fast** – Runs directly in the browser.
 
-Escalate queries to a human agent when it cannot provide an answer
+---
 
-Optionally, interact through a simple web chat interface
+## 🧰 Tech Stack
+| Layer | Technology |
+|--------|-------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend *(optional)* | Python (Flask) |
+| AI Integration | OpenAI GPT-3.5-Turbo |
+| Database *(optional)* | In-memory (dictionary) or SQLite |
 
-This project demonstrates the integration of AI (via OpenAI GPT models) with a backend API and optionally a frontend UI.
+---
 
-Features
-
-FAQ Handling: Provides immediate answers to common questions from a predefined FAQ dataset (faqs.json).
-
-Context Awareness: Remembers user interactions to provide consistent and context-aware responses.
-
-Escalation: If the bot cannot answer a question, it politely informs the user that it will escalate the issue to a human agent.
-
-Frontend Chat Interface (optional): Users can interact with the bot through a web page.
-
-Tech Stack
-
-Backend: Python Flask
-
-LLM Integration: OpenAI GPT API (gpt-3.5-turbo)
-
-Database / Session Tracking: Python dictionary or SQLite
-
-Frontend: HTML, CSS, JavaScript (optional)
-
-Folder Structure
-ai-customer-support-bot/
+## 📁 Folder Structure
+```
+AI-Customer-support-chatbot/
 │
-├── backend/
-│   ├── app.py           # Main Flask backend
-│   ├── routes/          # Optional route files
-│   ├── models/          # Optional database models
-│   └── utils/           # Optional utility functions
-│
-├── data/
-│   └── faqs.json        # FAQ dataset
-│
-├── frontend/            # Optional
-│   └── index.html       # Chat interface
-│
-└── README.md
+├── index.html          # Chat interface
+├── style.css           # UI styling
+├── script.js           # Chatbot logic
+├── README.md           # Documentation
+└── (Optional backend files like app.py or faqs.json)
+```
+
+---
+
+## ⚙️ Setup & Usage
+
+### 🖥️ Run Locally
+```bash
+git clone https://github.com/Ashish252003/AI-Customer-support-chatbot
+cd AI-Customer-support-chatbot
+```
+Open `index.html` in your browser to use the chatbot.
+
+### 🧠 (Optional) Backend Setup – Flask
+```bash
+pip install -r requirements.txt
+python app.py
+```
+Then visit: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 🧾 Submission Checklist
+✔ App runs without errors  
+✔ Proper structure & file naming  
+✔ No unnecessary/temporary files  
+✔ Branch: `main`  
+✔ Public & downloadable repository  
+✔ Size within GitHub limits (<1GB)  
+✔ Proper documentation (this README)  
+
+---
+
+## 👨‍💻 Author
+**Ashish Rawat**  
+AI & Web Development Enthusiast  
+
+📎 [GitHub Repository](https://github.com/Ashish252003/AI-Customer-support-chatbot)

@@ -20,9 +20,8 @@ This project integrates **OpenAI GPT models** with a simple **web-based interfac
 | Layer | Technology |
 |--------|-------------|
 | Frontend | HTML, CSS, JavaScript |
-| Backend *(optional)* | Python (Flask) |
 | AI Integration | OpenAI GPT-3.5-Turbo |
-| Database *(optional)* | In-memory (dictionary) or SQLite |
+
 
 ---
 
